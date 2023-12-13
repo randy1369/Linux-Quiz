@@ -1,0 +1,160 @@
+questions:
+  - question: "What is the purpose of the `ssh-agent` in Linux?"
+    options:
+      - "A. Manage network connections"
+      - "B. Manage user authentication keys"
+      - "C. Monitor system logs"
+      - "D. Configure firewall rules"
+    answer: "B"
+
+  - question: "How do you check the status of a running service with `systemctl` in Linux?"
+    options:
+      - "A. `systemctl list`"
+      - "B. `systemctl show`"
+      - "C. `systemctl status`"
+      - "D. `systemctl check`"
+    answer: "C"
+
+  - question: "In Linux, what is the purpose of the `top` command?"
+    options:
+      - "A. Display real-time system resource usage"
+      - "B. List installed packages"
+      - "C. Check disk space"
+      - "D. Show network connections"
+    answer: "A"
+
+  - question: "What does the `journalctl` command display in Linux?"
+    options:
+      - "A. Kernel version"
+      - "B. System log messages"
+      - "C. Network configuration"
+      - "D. Running processes"
+    answer: "B"
+
+  - question: "How can you schedule a task to run every day at 3:30 AM using cron?"
+    options:
+      - "A. `30 3 * * *`"
+      - "B. `0 3 * * *`"
+      - "C. `30 3 * * 7`"
+      - "D. `* 3 * * *`"
+    answer: "A"
+
+  - question: "What is the purpose of the `rsync` command in Linux?"
+    options:
+      - "A. Synchronize files and directories"
+      - "B. Archive files"
+      - "C. Compress files"
+      - "D. Encrypt files"
+    answer: "A"
+
+  - question: "What does the `route` command display in Linux?"
+    options:
+      - "A. Network interfaces"
+      - "B. Kernel version"
+      - "C. Routing table"
+      - "D. Disk space usage"
+    answer: "C"
+
+  - question: "How can you change the priority of a running process in Linux?"
+    options:
+      - "A. `nice`"
+      - "B. `priority`"
+      - "C. `change-priority`"
+      - "D. `top -p`"
+    answer: "A"
+
+  - question: "What is the purpose of the `htop` command in Linux?"
+    options:
+      - "A. Display HTML files"
+      - "B. Show running processes in a hierarchical view"
+      - "C. Configure network settings"
+      - "D. Manage system services"
+    answer: "B"
+
+  - question: "Which command is used to monitor real-time changes in a file in Linux?"
+    options:
+      - "A. `cat`"
+      - "B. `tail`"
+      - "C. `grep`"
+      - "D. `watch`"
+    answer: "B"
+
+  - question: "What is the purpose of the `awk` command in Linux?"
+    options:
+      - "A. Manage user accounts"
+      - "B. Extract and process text from files"
+      - "C. Display system logs"
+      - "D. Check system uptime"
+    answer: "B"
+
+  - question: "Which Linux command is used to find files based on their content?"
+    options:
+      - "A. `find`"
+      - "B. `grep`"
+      - "C. `locate`"
+      - "D. `file`"
+    answer: "B"
+
+  - question: "What does the `chown` command do in Linux?"
+    options:
+      - "A. Change file permissions"
+      - "B. Change file ownership"
+      - "C. Change user password"
+      - "D. Create a new file"
+    answer: "B"
+
+  - question: "How can you view the contents of a compressed file without extracting it in Linux?"
+    options:
+      - "A. `gzip`"
+      - "B. `tar`"
+      - "C. `zcat`"
+      - "D. `unzip`"
+    answer: "C"
+
+  - question: "What is the purpose of the `netstat` command in Linux?"
+    options:
+      - "A. Display system processes"
+      - "B. Show network connections"
+      - "C. Check disk space"
+      - "D. Monitor system logs"
+    answer: "B"
+
+  - question: "Which command is used to search for a specific string in files in Linux?"
+    options:
+      - "A. `find`"
+      - "B. `grep`"
+      - "C. `locate`"
+      - "D. `search`"
+    answer: "B"
+
+  - question: "What is the purpose of the `ifconfig` command in Linux?"
+    options:
+      - "A. Display system information"
+      - "B. Configure network interfaces"
+      - "C. Check disk usage"
+      - "D. Show running processes"
+    answer: "B"
+
+  - question: "How can you recursively copy a directory in Linux?"
+    options:
+      - "A. `cp -r`"
+      - "B. `mv -r`"
+      - "C. `rsync -r`"
+      - "D. `tar -r`"
+    answer: "A"
+
+  - question: "What is the purpose of the `uptime` command in Linux?"
+    options:
+      - "A. Display system logs"
+      - "B. Show system uptime"
+      - "C. Monitor network traffic"
+      - "D. Configure system settings"
+    answer: "B"
+
+  - question: "Which command is used to remove a directory and its contents in Linux?"
+    options:
+      - "A. `rmdir`"
+      - "B. `rm -r`"
+      - "C. `delete`"
+      - "D. `remove`"
+    answer: "B"

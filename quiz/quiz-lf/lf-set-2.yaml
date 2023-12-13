@@ -1,0 +1,241 @@
+
+questions:
+  - question: "What does the `ls -l` command display?"
+    options:
+      - "A. List files in a long format"
+      - "B. List hidden files"
+      - "C. List files in a detailed format"
+      - "D. List files with sizes in human-readable format"
+    answer: "C"
+
+  - question: "The command `ps -ef` displays:"
+    options:
+      - "A. Environment variables"
+      - "B. Running processes with full details"
+      - "C. System configuration"
+      - "D. File permissions"
+    answer: "B"
+
+  - question: "To create an empty file named 'file.txt,' which command is used?"
+    options:
+      - "A. `create file.txt`"
+      - "B. `touch file.txt`"
+      - "C. `new file.txt`"
+      - "D. `make file.txt`"
+    answer: "B"
+
+  - question: "What does the `cd -` command do?"
+    options:
+      - "A. Change to the home directory"
+      - "B. Change to the previous directory"
+      - "C. Change to the root directory"
+      - "D. Change to the next directory"
+    answer: "B"
+
+  - question: "The command `chmod 755 file.txt` sets:"
+    options:
+      - "A. Read, write, and execute permissions for the owner; read and execute permissions for the group and others"
+      - "B. Read, write, and execute permissions for the owner and group; read and execute permissions for others"
+      - "C. Read, write, and execute permissions for the owner and group; read, write, and execute permissions for others"
+      - "D. Read and write permissions for the owner and group; read, write, and execute permissions for others"
+    answer: "A"
+
+  - question: "What does the command `du -sh directory` display?"
+    options:
+      - "A. Detailed information about files in the directory"
+      - "B. Disk usage of the directory in human-readable format"
+      - "C. Date and time of the last directory modification"
+      - "D. Disk space usage of the entire system"
+    answer: "B"
+
+  - question: "The command `echo $SHELL` displays:"
+    options:
+      - "A. The system's default shell"
+      - "B. The current user's login shell"
+      - "C. The location of the system's shell"
+      - "D. The version of the system's shell"
+    answer: "B"
+
+  - question: "To copy a directory and its contents to a new location, which command is used?"
+    options:
+      - "A. `cp -r directory new_location`"
+      - "B. `mv directory new_location`"
+      - "C. `copy -r directory new_location`"
+      - "D. `duplicate directory new_location`"
+    answer: "A"
+
+  - question: "The command `head -n 5 file.txt` displays:"
+    options:
+      - "A. The first 5 lines of the file"
+      - "B. The last 5 lines of the file"
+      - "C. The content of the file in reverse order"
+      - "D. The total number of lines in the file"
+    answer: "A"
+
+  - question: "What does the `wc -l file.txt` command show?"
+    options:
+      - "A. Number of characters in the file"
+      - "B. Number of words in the file"
+      - "C. Number of lines in the file"
+      - "D. Number of bytes in the file"
+    answer: "C"
+
+  - question: "The command `ln -s file.txt link.txt` creates:"
+    options:
+      - "A. A hard link named 'link.txt' to 'file.txt'"
+      - "B. A symbolic link named 'link.txt' to 'file.txt'"
+      - "C. A copy of 'file.txt' named 'link.txt'"
+      - "D. A backup of 'file.txt' named 'link.txt'"
+    answer: "B"
+
+  - question: "To view the contents of a file in real-time, which command is used?"
+    options:
+      - "A. `view file.txt`"
+      - "B. `cat file.txt`"
+      - "C. `less file.txt`"
+      - "D. `tail -f file.txt`"
+    answer: "D"
+
+  - question: "The command `kill -15 PID` sends:"
+    options:
+      - "A. A SIGHUP signal"
+      - "B. A SIGTERM signal"
+      - "C. A SIGKILL signal"
+      - "D. A SIGSTOP signal"
+    answer: "B"
+
+  - question: "What is the purpose of the `alias` command?"
+    options:
+      - "A. Display system aliases"
+      - "B. Create a shortcut for a command"
+      - "C. Remove an alias"
+      - "D. Display the current user's aliases"
+    answer: "B"
+
+  - question: "The command `history | grep command` is used to:"
+    options:
+      - "A. List the history of commands containing 'command'"
+      - "B. Execute a command from history"
+      - "C. Remove a command from history"
+      - "D. Display the last executed command"
+    answer: "A"
+
+  - question: "The command `find /path -name filename` is used to:"
+    options:
+      - "A. Search for files in the entire system with the name 'filename'"
+      - "B. Find files in the specified path with the name 'filename'"
+      - "C. Display the location of the 'filename' command"
+      - "D. List all files in the specified path"
+    answer: "B"
+
+  - question: "The `chown` command is used to:"
+    options:
+      - "A. Change the ownership of a file or directory"
+      - "B. Change the permissions of a file or directory"
+      - "C. Change the user's password"
+      - "D. Change the group of a file or directory"
+    answer: "A"
+
+  - question: "What does the command `grep -i pattern file.txt` do?"
+    options:
+      - "A. Count the occurrences of a case-sensitive pattern in the file"
+      - "B. Ignore case while searching for a pattern in the file"
+      - "C. Invert the match for a pattern in the file"
+      - "D. Display line numbers along with matching lines"
+    answer: "B"
+
+  - question: "The command `ps aux | grep process_name` does what?"
+    options:
+      - "A. Lists all processes"
+      - "B. Displays detailed information about a specific process"
+      - "C. Kills a specific process"
+      - "D. Filters processes containing a specific name"
+    answer: "D"
+
+  - question: "How to recursively remove a directory and its contents forcefully?"
+    options:
+      - "A. `rmdir directory`"
+      - "B. `rm -r directory`"
+      - "C. `delete -rf directory`"
+      - "D. `remove -r directory`"
+    answer: "B"
+
+  - question: "The `tar` command is used for:"
+    options:
+      - "A. Renaming files"
+      - "B. Creating archives"
+      - "C. Removing files"
+      - "D. Copying files"
+    answer: "B"
+
+  - question: "The command `scp file.txt user@remote:/path` is used to:"
+    options:
+      - "A. Display the content of a file"
+      - "B. Copy a file to a remote server using Secure Copy"
+      - "C. Move a file to a remote server"
+      - "D. Create a new file on a remote server"
+    answer: "B"
+
+  - question: "What does the command `uname -r` display?"
+    options:
+      - "A. Running processes"
+      - "B. Release version of the kernel"
+      - "C. System architecture"
+      - "D. Registered users"
+    answer: "B"
+
+  - question: "The command `echo \"text\" > file.txt` does what?"
+    options:
+      - "A. Appends \"text\" to the end of the file"
+      - "B. Overwrites the content of the file with \"text\""
+      - "C. Creates a new file named \"file.txt\" with \"text\""
+      - "D. Displays \"text\" in the terminal"
+    answer: "C"
+
+  - question: "The command `cut -d, -f2 file.csv` extracts:"
+    options:
+      - "A. The second column of a space-separated file"
+      - "B. The first column of a comma-separated file"
+      - "C. The second column of a comma-separated file"
+      - "D. The first field of a file"
+    answer: "C"
+
+  - question: "How to view the contents of a compressed file without extracting it?"
+    options:
+      - "A. `cat file.zip`"
+      - "B. `gzip -d file.gz`"
+      - "C. `tar -tf file.tar.gz`"
+      - "D. `zcat file.gz`"
+    answer: "D"
+
+  - question: "What does the `df -i` command display?"
+    options:
+      - "A. Disk usage information"
+      - "B. Inode usage information"
+      - "C. Detailed file information"
+      - "D. Directory structure"
+    answer: "B"
+
+  - question: "The `awk` command is used for:"
+    options:
+      - "A. Text processing and pattern matching"
+      - "B. Disk management"
+      - "C. File compression"
+      - "D. User authentication"
+    answer: "A"
+
+  - question: "How to add a user to the sudo group?"
+    options:
+      - "A. `adduser -G sudo username`"
+      - "B. `usermod -aG sudo username`"
+      - "C. `sudo adduser username`"
+      - "D. `sudo usermod -G sudo username`"
+    answer: "B"
+
+  - question: "The command `ps -o pid,cmd` displays:"
+    options:
+      - "A. PIDs and command names of all processes"
+      - "B. Detailed information about all processes"
+      - "C. Running processes with full details"
+      - "D. List of currently logged-in users"
+    answer: "A"

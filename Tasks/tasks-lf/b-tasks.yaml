@@ -1,0 +1,132 @@
+
+questions:
+  - question: "Navigate and List"
+    instructions: "Open a terminal and navigate to your home directory. List the contents of your home directory."
+    answer: |
+      cd
+      ls
+
+  - question: "File and Directory Manipulation"
+    instructions: "Create a directory named 'PrerequisiteTasks' in your home directory. Inside that directory, create an empty file named 'readme.txt.'"
+    answer: |
+      mkdir PrerequisiteTasks
+      touch PrerequisiteTasks/readme.txt
+
+  - question: "Permissions and Ownership"
+    instructions: "Change the permissions of 'readme.txt' to make it readable, writable, and executable by the owner, and readable by others."
+    answer: "chmod 755 PrerequisiteTasks/readme.txt"
+
+  - question: "Text Editing"
+    instructions: "Open 'readme.txt' in a text editor (e.g., nano, vim, or emacs) and add the line 'Hello, Linux!' Save and close the file."
+    answer: "nano PrerequisiteTasks/readme.txt"
+
+  - question: "User Management"
+    instructions: "Create a new user named 'PracticeUser.' Switch to the new user, and then switch back to your original user."
+    answer: |
+      sudo adduser PracticeUser
+      su PracticeUser
+      exit
+
+  - question: "Process Management"
+    instructions: "Open a new terminal window. Use the `ps` command to display a list of currently running processes."
+    answer: "ps aux"
+
+  - question: "Package Management"
+    instructions: "Install a text editor of your choice using the package manager relevant to your distribution (e.g., `apt`, `yum`, or `zypper`)."
+    answer: "Package manager commands based on distribution (e.g., `sudo apt install nano` for Debian-based systems)"
+
+  - question: "Network Commands"
+    instructions: "Use the `ping` command to check the connectivity to a well-known website (e.g., www.google.com)."
+    answer: "ping www.google.com"
+
+  - question: "System Information"
+    instructions: "Display information about your Linux distribution and kernel version using relevant commands (e.g., `lsb_release -a`, `uname -a`)."
+    answer: |
+      lsb_release -a
+      uname -a
+
+  - question: "Archiving and Compression"
+    instructions: "Create a compressed archive of the 'PrerequisiteTasks' directory using a tool like `tar`."
+    answer: "tar -czvf PrerequisiteTasks.tar.gz PrerequisiteTasks"
+
+  - question: "System Shutdown"
+    instructions: "Shut down your system using the appropriate command (e.g., `shutdown` or `poweroff`)."
+    answer: "shutdown" # or "poweroff"
+
+  - question: "File Search"
+    instructions: "Use the `find` command to search for files with a specific extension (e.g., `.txt`) in your home directory."
+    answer: "find ~ -name \"*.txt\""
+
+  - question: "File Deletion"
+    instructions: "Delete the 'PrerequisiteTasks' directory and its contents using the appropriate command."
+    answer: "rm -r PrerequisiteTasks"
+
+  - question: "System Reboot"
+    instructions: "Reboot your system using the relevant command (e.g., `reboot`)."
+    answer: "reboot"
+
+  - question: "Environment Variables"
+    instructions: "Set an environment variable named 'MY_VARIABLE' with the value 'LinuxPractices.'"
+    answer: "export MY_VARIABLE=LinuxPractices"
+
+  - question: "System Date and Time"
+    instructions: "Display the current date and time using the relevant command."
+    answer: "date"
+
+  - question: "Text File Concatenation"
+    instructions: "Create two text files with different content. Use the `cat` command to concatenate their contents into a new file."
+    answer: "cat file1.txt file2.txt > MergedFile.txt"
+
+  - question: "Rename Files"
+    instructions: "Rename the concatenated file from the previous task to 'MergedFile.txt.'"
+    answer: "mv MergedFile.txt RenamedFile.txt"
+
+  - question: "User Home Directory"
+    instructions: "Display the path to your home directory using the `echo` command."
+    answer: "echo $HOME"
+
+  - question: "Hostname and IP Address"
+    instructions: "Display the hostname and IP address of your machine using relevant commands (e.g., `hostname`, `hostname -I`)."
+    answer: |
+      hostname
+      hostname -I
+
+  - question: "View File Contents with Pager"
+    instructions: "Use a pager (e.g., `less` or `more`) to view the contents of a text file."
+    answer: "less filename.txt"
+
+  - question: "Copy Files and Directories"
+    instructions: "Create a copy of the 'PrerequisiteTasks' directory and its contents with a new name."
+    answer: "cp -r PrerequisiteTasks PrerequisiteTasks_Copy"
+
+  - question: "Create Symbolic Link"
+    instructions: "Create a symbolic link to the 'MergedFile.txt' in your home directory."
+    answer: "ln -s PrerequisiteTasks/MergedFile.txt ~/SymbolicLink.txt"
+
+  - question: "Check System Resource Usage"
+    instructions: "Use the `top` or `htop` command to check system resource usage in real-time."
+    answer: "top" # or "htop"
+
+  - question: "Check Available Disk Space"
+    instructions: "Use the `df` command to display information about available disk space on your system."
+    answer: "df -h"
+
+  - question: "Monitor Log Files"
+    instructions: "Use the `tail` command to monitor the last 10 lines of a log file (e.g., `/var/log/syslog`)."
+    answer: "tail /var/log/syslog"
+
+  - question: "Create a Zip Archive"
+    instructions: "Create a zip archive of the 'PrerequisiteTasks' directory."
+    answer: "zip -r PrerequisiteTasks.zip PrerequisiteTasks"
+
+  - question: "Change User Password"
+    instructions: "Change the password for your user account."
+    answer: "passwd"
+
+  - question: "Display System Uptime"
+    instructions: "Use the `uptime` command to display the system uptime."
+    answer: "uptime"
+
+  - question: "Display User Groups"
+    instructions: "Use the `groups` command to display the groups to which your user belongs."
+    answer: "groups"

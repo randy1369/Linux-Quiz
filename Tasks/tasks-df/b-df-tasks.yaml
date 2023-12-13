@@ -1,0 +1,129 @@
+
+questions:
+  - question: "Generate an SSH key pair using the `ssh-keygen` command."
+    instructions: "This task introduces the user to SSH key generation, an essential skill for secure communication and access to remote servers."
+    answer: |
+      ssh-keygen
+    summary: "Understanding how to generate SSH key pairs is crucial for secure authentication and access to remote servers."
+
+  - question: "Use the `ssh` command to connect to a remote server using the generated SSH key pair."
+    instructions: "Practicing SSH connection reinforces the understanding of authenticating with remote servers securely."
+    answer: |
+      ssh username@remote_server
+    summary: "Practicing SSH connections enhances the ability to securely access remote servers."
+
+  - question: "Pull a Docker image from Docker Hub using the `docker pull` command."
+    instructions: "This task covers the basics of Docker by fetching a container image from the Docker Hub registry."
+    answer: |
+      docker pull image_name
+    summary: "Understanding Docker image pulling is fundamental for deploying applications using containerization."
+
+  - question: "Start a Docker container based on the pulled image using the `docker run` command."
+    instructions: "Running a Docker container demonstrates the practical use of containerization for deploying applications."
+    answer: |
+      docker run -d --name my_container image_name
+    summary: "Deploying Docker containers is a key skill for efficient application deployment and management."
+
+  - question: "Create a simple Docker Compose file to define and run a multi-container application."
+    instructions: "Introducing Docker Compose provides experience in managing multi-container applications efficiently."
+    answer: |
+      version: '3'
+      services:
+        web:
+          image: nginx:alpine
+        db:
+          image: mysql:5.7
+    summary: "Managing multi-container applications with Docker Compose is essential for orchestrating complex deployments."
+
+  - question: "Create an Ansible inventory file with a list of server IP addresses."
+    instructions: "Managing server inventory is a fundamental skill in Ansible for configuration management."
+    answer: |
+      [web_servers]
+      server1 ansible_host=192.168.
+    summary: "Creating Ansible inventory files is crucial for organizing and managing server configurations with Ansible."
+
+  - question: "Use an Ansible ad-hoc command to check the free disk space on a remote server."
+    instructions: "Executing ad-hoc commands showcases Ansible's ability to perform quick tasks across multiple servers."
+    answer: |
+      ansible web_servers -m shell -a 'df -h'
+    summary: "Using Ansible ad-hoc commands is valuable for performing quick tasks across multiple servers, such as checking disk space."
+
+  - question: "Use the `cron` syntax to schedule a task that prints 'Hello, DevOps!' to a file every day at noon."
+    instructions: "Understanding `cron` scheduling is crucial for automating routine tasks in a DevOps environment."
+    answer: |
+      0 12 * * * echo "Hello, DevOps!" >> hello.txt
+    summary: "Scheduling tasks with `cron` is essential for automating repetitive tasks in a DevOps workflow."
+
+  - question: "Use the `top` command to monitor real-time system resource usage."
+    instructions: "Monitoring system resources with `top` enhances the user's ability to identify performance bottlenecks."
+    answer: |
+      top
+    summary: "Using `top` for real-time system monitoring is crucial for identifying and addressing performance issues."
+
+  - question: "Use the `journalctl` command to check the system logs for recent events."
+    instructions: "Checking system logs is a key troubleshooting skill, and `journalctl` is a valuable tool for that purpose."
+    answer: |
+      journalctl
+    summary: "Checking system logs with `journalctl` is essential for troubleshooting and identifying recent system events."
+
+  - question: "Edit the network configuration file to assign a static IP address to a network interface."
+    instructions: "Configuring network settings is a fundamental skill for system administrators and DevOps professionals."
+    answer: |
+      # (Answer will vary based on the specific Linux distribution and network configuration file.)
+    summary: "Configuring network settings for static IP addresses is crucial for stable and predictable network configurations."
+
+  - question: "Create a compressed archive of a directory using the `tar` command."
+    instructions: "Archiving and compressing files are common tasks in managing deployments and backups."
+    answer: |
+      tar -czvf archive.tar.gz directory
+    summary: "Creating compressed archives with `tar` is a fundamental skill for managing and distributing files efficiently."
+
+  - question: "Create a new user account using the `adduser` command."
+    instructions: "Adding users is a fundamental system administration task, and it's essential for user management."
+    answer: |
+      adduser new_user
+    summary: "Adding user accounts with `adduser` is crucial for managing user access and permissions."
+
+  - question: "Use the `passwd` command to change the password for the user created in Task 13."
+    instructions: "Changing user passwords is a basic security measure, and understanding the `passwd` command is crucial."
+    answer: |
+      passwd new_user
+    summary: "Changing user passwords with `passwd` is essential for maintaining account security."
+
+  - question: "Add the user created in Task 13 to the `sudo` group."
+    instructions: "Assigning sudo privileges to a user is important for granting administrative permissions."
+    answer: |
+      usermod -aG sudo new_user
+    summary: "Assigning users to the `sudo` group is crucial for providing administrative privileges."
+
+  - question: "Use a command to check the system uptime."
+    instructions: "Checking system uptime provides insights into the system's stability and availability."
+    answer: |
+      uptime
+    summary: "Checking system uptime is essential for monitoring system stability and availability."
+
+  - question: "Use a package manager command (`apt`, `yum`, etc.) to display a list of installed packages."
+    instructions: "Displaying a list of installed packages helps in managing software and dependencies."
+    answer: |
+      apt list --installed
+    summary: "Displaying installed packages with the package manager is crucial for managing software installations and dependencies."
+
+  - question: "Display information about disk partitions using a command like `fdisk` or `lsblk`."
+    instructions: "Understanding disk partitions is crucial for managing storage and filesystems."
+    answer: |
+      # (Answer will vary based on the specific Linux distribution and the chosen command.)
+    summary: "Displaying information about disk partitions is essential for managing storage and filesystem configurations."
+
+  - question: "Use the `chown` command to change the ownership of a file."
+    instructions: "Changing file ownership is a common administrative task, especially for security and access control."
+    answer: |
+      chown new_owner:new_group file_name
+    summary: "Changing file ownership with `chown` is essential for managing access control and security."
+
+  - question: "Use the `netstat` command to display information about network connections."
+    instructions: "Monitoring network connections is important for identifying network-related issues and security monitoring."
+    answer: |
+      netstat
+    summary: "Displaying information about network connections with `netstat` is crucial for network monitoring and troubleshooting."
+
+

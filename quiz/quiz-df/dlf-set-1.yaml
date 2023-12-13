@@ -1,0 +1,241 @@
+
+questions:
+  - question: "What is the purpose of the `chmod` command in Linux?"
+    options:
+      - "A. Change system hostname"
+      - "B. Change file permissions"
+      - "C. Change user password"
+      - "D. Change file ownership"
+    answer: "B"
+
+  - question: "Which command is used to check the syntax of a Nginx configuration file?"
+    options:
+      - "A. `nginx -s reload`"
+      - "B. `nginx -t`"
+      - "C. `nginx -s stop`"
+      - "D. `nginx -v`"
+    answer: "B"
+
+  - question: "In the context of Docker, what is a Docker image?"
+    options:
+      - "A. A running instance of a container"
+      - "B. A snapshot of a container"
+      - "C. A configuration file for a container"
+      - "D. A virtual machine"
+    answer: "B"
+
+  - question: "What does the `ps` command display in Linux?"
+    options:
+      - "A. System processes"
+      - "B. Package statistics"
+      - "C. Disk partitions"
+      - "D. Kernel version"
+    answer: "A"
+
+  - question: "What is the purpose of the `cron` system in Linux?"
+    options:
+      - "A. Manage user accounts"
+      - "B. Schedule tasks at specific times"
+      - "C. Configure network settings"
+      - "D. Monitor system logs"
+    answer: "B"
+
+  - question: "Which command is used to create an SSH key pair?"
+    options:
+      - "A. `ssh-keygen`"
+      - "B. `ssh-add`"
+      - "C. `ssh-copy-id`"
+      - "D. `ssh-agent`"
+    answer: "A"
+
+  - question: "What is the function of the `docker-compose` tool?"
+    options:
+      - "A. Build Docker images"
+      - "B. Orchestrate and manage multi-container Docker applications"
+      - "C. Monitor Docker containers"
+      - "D. Secure Docker containers"
+    answer: "B"
+
+  - question: "Which command is used to install packages on a Debian-based Linux distribution?"
+    options:
+      - "A. `apt install`"
+      - "B. `yum install`"
+      - "C. `dnf install`"
+      - "D. `zypper install`"
+    answer: "A"
+
+  - question: "What is the purpose of the `ansible-playbook` command in Ansible?"
+    options:
+      - "A. Execute Ansible tasks"
+      - "B. Configure Ansible roles"
+      - "C. Run Ansible playbooks"
+      - "D. Check Ansible version"
+    answer: "C"
+
+  - question: "What is the primary function of a container orchestration tool like Kubernetes?"
+    options:
+      - "A. Manage configuration files"
+      - "B. Schedule and orchestrate containers"
+      - "C. Build container images"
+      - "D. Monitor network traffic"
+    answer: "B"
+
+  - question: "In Linux, what does the `systemctl` command do?"
+    options:
+      - "A. Display system information"
+      - "B. Manage system services"
+      - "C. Configure network interfaces"
+      - "D. Check disk usage"
+    answer: "B"
+
+  - question: "Which Linux command is used to create a compressed archive?"
+    options:
+      - "A. `zip`"
+      - "B. `tar`"
+      - "C. `gzip`"
+      - "D. `unzip`"
+    answer: "B"
+
+  - question: "What does the `sar` command measure in Linux?"
+    options:
+      - "A. System load averages"
+      - "B. Network bandwidth"
+      - "C. System resource usage"
+      - "D. Disk space"
+    answer: "C"
+
+  - question: "How can you set a disk quota for a user in Linux?"
+    options:
+      - "A. `quota -u username`"
+      - "B. `edquota -u username`"
+      - "C. `chmod +q username`"
+      - "D. `diskquota -s username`"
+    answer: "B"
+
+  - question: "What is the purpose of the `sed` command in Linux?"
+    options:
+      - "A. Search for files"
+      - "B. Search and replace text in files"
+      - "C. Display system logs"
+      - "D. Set environment variables"
+    answer: "B"
+
+  - question: "Which command is used to display network connections in Linux?"
+    options:
+      - "A. `netstat`"
+      - "B. `ifconfig`"
+      - "C. `ping`"
+      - "D. `route`"
+    answer: "A"
+
+  - question: "What is the role of `yum` in Red Hat-based Linux distributions?"
+    options:
+      - "A. Package management"
+      - "B. System monitoring"
+      - "C. Disk partitioning"
+      - "D. User authentication"
+    answer: "A"
+
+  - question: "What does the `df` command display in Linux?"
+    options:
+      - "A. Running processes"
+      - "B. Free memory"
+      - "C. Disk space usage"
+      - "D. System uptime"
+    answer: "C"
+
+  - question: "Which command is used to monitor changes in real-time in a log file?"
+    options:
+      - "A. `tail`"
+      - "B. `cat`"
+      - "C. `grep`"
+      - "D. `watch`"
+    answer: "A"
+
+  - question: "What is the purpose of the `ulimit` command in Linux?"
+    options:
+      - "A. Limit user access"
+      - "B. Set resource limits"
+      - "C. Control process priority"
+      - "D. Manage system services"
+    answer: "B"
+
+  - question: "How do you enable and activate a swap file in Linux?"
+    options:
+      - "A. `mkswap /swapfile` and `swapon /swapfile`"
+      - "B. `create swapfile` and `activate swapfile`"
+      - "C. `swapfile enable` and `swapfile activate`"
+      - "D. `swapon /swapfile` and `mkswap /swapfile`"
+    answer: "A"
+
+  - question: "What does the `inotifywait` command do in Linux?"
+    options:
+      - "A. Monitor file changes"
+      - "B. Display system uptime"
+      - "C. Manage user accounts"
+      - "D. Schedule cron jobs"
+    answer: "A"
+
+  - question: "How can you configure log rotation for a specific log file in Linux?"
+    options:
+      - "A. Edit `/etc/logrotate.conf`"
+      - "B. Create a new cron job"
+      - "C. Use `log rotate -f filename`"
+      - "D. Edit `/etc/logrotate.d/filename`"
+    answer: "D"
+
+  - question: "What is the purpose of a symbolic link in Linux?"
+    options:
+      - "A. Create a copy of a file"
+      - "B. Point to another file or directory"
+      - "C. Encrypt a file"
+      - "D. Change file permissions"
+    answer: "B"
+
+  - question: "Which command is used to add a new software repository in Linux?"
+    options:
+      - "A. `addrepo`"
+      - "B. `yum repository add`"
+      - "C. `apt-add-repository`"
+      - "D. `repo-add`"
+    answer: "C"
+
+  - question: "What is the function of the `screen` multiplexer in Linux?"
+    options:
+      - "A. Create and manage virtual environments"
+      - "B. Manage multiple terminal sessions"
+      - "C. Monitor system performance"
+      - "D. Configure network interfaces"
+    answer: "B"
+
+  - question: "What is the primary purpose of log files in Linux?"
+    options:
+      - "A. Store user passwords"
+      - "B. Track system resource usage"
+      - "C. Record system events and errors"
+      - "D. Manage disk partitions"
+    answer: "C"
+
+  - question: "Which command is used to copy files securely between systems in Linux?"
+    options:
+      - "A. `rsync`"
+      - "B. `cp`"
+      - "C. `scp`"
+      - "D. `mv`"
+    answer: "C"
+
+  - question: "What does the `tar` command do in Linux?"
+    options:
+      - "A. Compress files"
+      - "B. Create an encrypted archive"
+      - "C. Archive and compress files"
+      - "D. Extract files from an archive"
+    answer: "C"
+
+  - question: "How can you configure PAM to require a strong password in Linux?"
+    options:
+      - "A. Edit `/etc/passwd`"
+      - "B. Edit `/etc/pam.d/common-password`"
+      - "C. Use the `passwdconfig` command"
+      - "D. Run `pam-secure-password`"
+    answer: "B"

@@ -1,0 +1,241 @@
+
+questions:
+  - question: "The `mv` command is used to:"
+    options:
+      - "A. Display system information"
+      - "B. Move or rename files and directories"
+      - "C. Create a new file"
+      - "D. View the contents of a file"
+    answer: "B"
+
+  - question: "The `date` command with the `+%Y-%m-%d` format displays:"
+    options:
+      - "A. Current time"
+      - "B. Current date in YYYY-MM-DD format"
+      - "C. Current day of the week"
+      - "D. Current year"
+    answer: "B"
+
+  - question: "What does the command `echo $USER` show?"
+    options:
+      - "A. Current user's home directory"
+      - "B. Username of the current user"
+      - "C. List of users"
+      - "D. System's default user"
+    answer: "B"
+
+  - question: "To create a symbolic link named 'link' to a file named 'file.txt,' which command is used?"
+    options:
+      - "A. `link file.txt link`"
+      - "B. `ln file.txt link`"
+      - "C. `create-link file.txt link`"
+      - "D. `symlink file.txt link`"
+    answer: "B"
+
+  - question: "The command `ps -aux` displays:"
+    options:
+      - "A. A list of all users"
+      - "B. A detailed list of running processes"
+      - "C. A summary of system resources"
+      - "D. A list of installed packages"
+    answer: "B"
+
+  - question: "To display the last 10 lines of a file named 'log.txt,' which command is used?"
+    options:
+      - "A. `head -n 10 log.txt`"
+      - "B. `cat -n 10 log.txt`"
+      - "C. `tail -n 10 log.txt`"
+      - "D. `display -n 10 log.txt`"
+    answer: "C"
+
+  - question: "What is the purpose of the `history` command?"
+    options:
+      - "A. Display system history"
+      - "B. Display command history"
+      - "C. Display user history"
+      - "D. Display file modification history"
+    answer: "B"
+
+  - question: "The command `cp file.txt /backup` does what?"
+    options:
+      - "A. Copies 'file.txt' to the '/backup' directory"
+      - "B. Moves 'file.txt' to the '/backup' directory"
+      - "C. Creates a backup of 'file.txt' in the current directory"
+      - "D. Copies all files in the current directory to '/backup'"
+    answer: "A"
+
+  - question: "What does the command `uname -a` display?"
+    options:
+      - "A. Current user's information"
+      - "B. Kernel information"
+      - "C. System architecture"
+      - "D. System's default shell"
+    answer: "B"
+
+  - question: "To search for the word 'pattern' in all text files in the current directory, which command is used?"
+    options:
+      - "A. `grep \"pattern\" *.txt`"
+      - "B. `find -name \"*.txt\" -exec grep \"pattern\" {} \\;`"
+      - "C. `search -pattern *.txt`"
+      - "D. `locate \"pattern\" *.txt`"
+    answer: "A"
+
+  - question: "The command `whoami` displays:"
+    options:
+      - "A. The current user's ID"
+      - "B. The current user's home directory"
+      - "C. The username of the current user"
+      - "D. The list of currently logged-in users"
+    answer: "C"
+
+  - question: "To display the disk usage of a directory and its subdirectories, which command is used?"
+    options:
+      - "A. `du -h directory`"
+      - "B. `df -h directory`"
+      - "C. `usage -h directory`"
+      - "D. `disk -h directory`"
+    answer: "A"
+
+  - question: "The command `man command` is used to:"
+    options:
+      - "A. Display the system manual"
+      - "B. Display the manual page for a specific command"
+      - "C. Display the manual for a specific file"
+      - "D. Display the manual for a specific user"
+    answer: "B"
+
+  - question: "What does the command `uptime` show?"
+    options:
+      - "A. Current system time"
+      - "B. Time since the last system reboot"
+      - "C. System load average"
+      - "D. Time until the next system maintenance"
+    answer: "C"
+
+  - question: "The command `ps -o pid,cmd` displays:"
+    options:
+      - "A. PIDs and command names of all processes"
+      - "B. Detailed information about all processes"
+      - "C. Running processes with full details"
+      - "D. List of currently logged-in users"
+    answer: "A"
+
+  - question: "To delete a file named 'data.txt,' which command is used?"
+    options:
+      - "A. `delete data.txt`"
+      - "B. `rm data.txt`"
+      - "C. `erase data.txt`"
+      - "D. `remove data.txt`"
+    answer: "B"
+
+  - question: "What does the command `df -h` display?"
+    options:
+      - "A. Disk usage in human-readable format"
+      - "B. Detailed file information"
+      - "C. Directory structure"
+      - "D. Disk free space in human-readable format"
+    answer: "A"
+
+  - question: "The command `chsh` is used for:"
+    options:
+      - "A. Changing user shell"
+      - "B. Changing user password"
+      - "C. Changing user home directory"
+      - "D. Changing user group"
+    answer: "A"
+
+  - question: "To display the system's IP addresses and interfaces, which command is used?"
+    options:
+      - "A. `ifconfig`"
+      - "B. `ipconfig`"
+      - "C. `netstat`"
+      - "D. `showip`"
+    answer: "A"
+
+  - question: "What is the purpose of the `cut` command?"
+    options:
+      - "A. Extract columns from a text file"
+      - "B. Cut files into pieces"
+      - "C. Copy files to a different location"
+      - "D. Display the first few lines of a file"
+    answer: "A"
+
+  - question: "The command `chmod +x script.sh` does what?"
+    options:
+      - "A. Adds execute permission to 'script.sh' for the owner"
+      - "B. Adds execute permission to 'script.sh' for the group"
+      - "C. Adds execute permission to 'script.sh' for others"
+      - "D. Adds execute permission to 'script.sh' for everyone"
+    answer: "A"
+
+  - question: "To find the total number of lines in a file named 'file.txt,' which command is used?"
+    options:
+      - "A. `lines file.txt`"
+      - "B. `count -l file.txt`"
+      - "C. `wc -l file.txt`"
+      - "D. `length file.txt`"
+    answer: "C"
+
+  - question: "What is the purpose of the `uniq` command?"
+    options:
+      - "A. Display unique lines from a sorted file"
+      - "B. Count the number of lines in a file"
+      - "C. Display all lines in a file"
+      - "D. Remove duplicate lines from a file"
+    answer: "A"
+
+  - question: "The command `ls -lh` displays:"
+    options:
+      - "A. List files with detailed information in human-readable format"
+      - "B. List hidden files"
+      - "C. List all files and directories"
+      - "D. List files with detailed information"
+    answer: "A"
+
+  - question: "What does the command `scp user@remote:/path/file.txt .` do?"
+    options:
+      - "A. Copies 'file.txt' from the remote server to the current directory"
+      - "B. Copies 'file.txt' from the local machine to the remote server"
+      - "C. Moves 'file.txt' from the remote server to the current directory"
+      - "D. Creates a new file named 'file.txt' on the remote server"
+    answer: "A"
+
+  - question: "The command `echo \"Welcome\" >> file.txt` does what?"
+    options:
+      - "A. Appends 'Welcome' to the end of the file"
+      - "B. Overwrites the content of the file with 'Welcome'"
+      - "C. Creates a new file named 'file.txt' with 'Welcome'"
+      - "D. Displays 'Welcome' in the terminal"
+    answer: "A"
+
+  - question: "What is the purpose of the `tee` command?"
+    options:
+      - "A. Display system logs"
+      - "B. Create a copy of a file or command output"
+      - "C. Execute a command"
+      - "D. Change file ownership"
+    answer: "B"
+
+  - question: "The command `lsblk` displays:"
+    options:
+      - "A. A list of running processes"
+      - "B. Block devices and their mount points"
+      - "C. List of installed packages"
+      - "D. Detailed information about a file"
+    answer: "B"
+
+  - question: "To view the content of a compressed file without extracting it, which command is used?"
+    options:
+      - "A. `cat file.gz`"
+      - "B. `gzip -d file.gz`"
+      - "C. `zcat file.gz`"
+      - "D. `tar -tf file.gz`"
+    answer: "C"
+
+  - question: "What does the command `groups username` show?"
+    options:
+      - "A. List of all users in the system"
+      - "B. List of groups to which the user belongs"
+      - "C. List of files owned by the user"
+      - "D. List of processes owned by the user"
+    answer: "B"

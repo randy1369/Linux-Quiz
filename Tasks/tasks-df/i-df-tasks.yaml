@@ -1,0 +1,157 @@
+questions:
+  - question: "Create an Nginx configuration file that proxies requests to a backend server on port 8080."
+    instructions: "Creating an Nginx proxy configuration enhances skills in setting up reverse proxies, a common practice in web server configurations."
+    answer: |
+      # Create a file named `nginx.conf` with appropriate configurations,
+      # including the `proxy_pass` directive.
+
+    summary: "Creating an Nginx proxy configuration enhances skills in setting up reverse proxies, a common practice in web server configurations."
+
+  - question: "Implement log rotation for Nginx logs, ensuring that old logs are archived and compressed."
+    instructions: "Implementing log rotation ensures efficient log management, preventing log files from consuming excessive disk space."
+    answer: |
+      # Configure log rotation in the Nginx configuration file or using tools like `logrotate`.
+
+    summary: "Implementing log rotation ensures efficient log management, preventing log files from consuming excessive disk space."
+
+  - question: "Use Ansible to deploy a new version of a web application to multiple servers."
+    instructions: "Automating web application deployment with Ansible streamlines the process, making it scalable across multiple servers."
+    answer: |
+      # Write an Ansible playbook that pulls the latest code
+      # from a repository and restarts the web application.
+
+    summary: "Automating web application deployment with Ansible streamlines the process, making it scalable across multiple servers."
+
+  - question: "Configure a firewall using `iptables` or `firewalld` to allow traffic on specific ports and deny on others."
+    instructions: "Configuring a firewall is a fundamental aspect of securing servers and controlling network traffic."
+    answer: |
+      # Use `iptables` or `firewalld` to configure rules
+      # for allowing or denying traffic on specific ports.
+
+    summary: "Configuring a firewall is a fundamental aspect of securing servers and controlling network traffic."
+
+  - question: "Implement a backup strategy for a critical database, considering regular backups and retention policies."
+    instructions: "Implementing a backup strategy for databases is critical for data protection and disaster recovery."
+    answer: |
+      # Set up a script or use tools like `mysqldump` to create regular backups
+      # and manage retention policies.
+
+    summary: "Implementing a backup strategy for databases is critical for data protection and disaster recovery."
+
+  - question: "Set up a centralized logging system using tools like ELK (Elasticsearch, Logstash, Kibana) or Fluentd."
+    instructions: "Setting up a centralized logging system is essential for monitoring and troubleshooting distributed applications."
+    answer: |
+      # Deploy and configure ELK or Fluentd to collect and analyze logs
+      # from multiple servers.
+
+    summary: "Setting up a centralized logging system is essential for monitoring and troubleshooting distributed applications."
+
+  - question: "Automate the provisioning of virtual machines or cloud instances using tools like Terraform."
+    instructions: "Automating infrastructure provisioning with Terraform improves scalability and consistency."
+    answer: |
+      # Write Terraform scripts to define and deploy infrastructure on cloud platforms.
+
+    summary: "Automating infrastructure provisioning with Terraform improves scalability and consistency."
+
+  - question: "Configure SSL/TLS certificates for Nginx to enable secure HTTPS communication."
+    instructions: "Configuring SSL/TLS for Nginx ensures secure communication over the internet."
+    answer: |
+      # Configure Nginx to use SSL/TLS certificates.
+      # Obtain certificates from a certificate authority or use Let's Encrypt.
+
+    summary: "Configuring SSL/TLS for Nginx ensures secure communication over the internet."
+
+  - question: "Optimize Docker containers for production by minimizing image size and improving security."
+    instructions: "Optimizing Docker containers for production involves improving security and minimizing image size for efficient deployment."
+    answer: |
+      # Optimize Dockerfiles, use multi-stage builds,
+      # and follow security best practices for container images.
+
+    summary: "Optimizing Docker containers for production involves improving security and minimizing image size for efficient deployment."
+
+  - question: "Implement a rolling deployment strategy for a microservices architecture using Kubernetes."
+    instructions: "Implementing a rolling deployment strategy in Kubernetes ensures smooth updates and minimal service disruption in a microservices environment."
+    answer: |
+      # Implement a rolling update strategy in Kubernetes,
+      # ensuring minimal downtime during application updates.
+
+    summary: "Implementing a rolling deployment strategy in Kubernetes ensures smooth updates and minimal service disruption in a microservices environment."
+
+  - question: "Configure a monitoring solution (e.g., Prometheus) to collect metrics from your infrastructure."
+    instructions: "Configuring Prometheus to collect metrics and Grafana for visualization enhances system monitoring capabilities."
+    answer: |
+      # Configure Prometheus to scrape and store metrics,
+      # and set up Grafana for visualization.
+
+    summary: "Configuring Prometheus to collect metrics and Grafana for visualization enhances system monitoring capabilities."
+
+  - question: "Implement continuous integration and continuous deployment (CI/CD) for a sample application."
+    instructions: "Implementing a CI/CD pipeline streamlines the software development and deployment process."
+    answer: |
+      # Implement a CI/CD pipeline using tools like Jenkins, GitLab CI, or GitHub Actions.
+
+    summary: "Implementing a CI/CD pipeline streamlines the software development and deployment process."
+
+  - question: "Automate the scaling of infrastructure based on demand using tools like Auto Scaling Groups (ASG) in the cloud."
+    instructions: "Setting up Auto Scaling Groups allows automatic scaling of infrastructure based on demand."
+    answer: |
+      # Set up Auto Scaling Groups in AWS or an equivalent feature in other cloud providers.
+
+    summary: "Setting up Auto Scaling Groups allows automatic scaling of infrastructure based on demand."
+
+  - question: "Implement security measures, such as setting up a bastion host, for securing SSH access to servers."
+    instructions: "Establishing a bastion host enhances security by providing a controlled entry point for accessing internal servers."
+    answer: |
+      # Establish a bastion host for secure access to internal servers,
+      # using SSH key authentication.
+
+    summary: "Establishing a bastion host enhances security by providing a controlled entry point for accessing internal servers."
+
+  - question: "Create a Docker Compose file for a multi-container application with different services."
+    instructions: "Creating a Docker Compose file simplifies the orchestration of multi-container applications."
+    answer: |
+      # Create a Docker Compose file specifying services, networks,
+      # and volumes for a multi-container application.
+
+    summary: "Creating a Docker Compose file simplifies the orchestration of multi-container applications."
+
+  - question: "Implement a load balancing strategy for distributing traffic among multiple servers."
+    instructions: "Implementing a load balancer improves application availability and distributes traffic effectively."
+    answer: |
+      # Implement a load balancer (e.g., Nginx, HAProxy)
+      # to distribute incoming traffic among multiple servers.
+
+    summary: "Implementing a load balancer improves application availability and distributes traffic effectively."
+
+  - question: "Set up a private Docker registry to store and manage your Docker images."
+    instructions: "Deploying a private Docker registry ensures secure storage and management of Docker images."
+    answer: |
+      # Deploy a private Docker registry (e.g., Docker Hub, AWS ECR)
+      # and push/pull images to/from it.
+
+    summary: "Deploying a private Docker registry ensures secure storage and management of Docker images."
+
+  - question: "Autom
+
+  ate server provisioning using configuration management tools like Puppet or Chef."
+    instructions: "Automating server provisioning with configuration management tools improves consistency and reduces manual intervention."
+    answer: |
+      # Automate server provisioning and configuration using Puppet or Chef.
+
+    summary: "Automating server provisioning with configuration management tools improves consistency and reduces manual intervention."
+
+  - question: "Configure alerting for system metrics, such as CPU usage and disk space, using tools like Grafana."
+    instructions: "Setting up alerting using Grafana or other monitoring tools to notify on predefined thresholds."
+    answer: |
+      # Set up alerting using Grafana or other monitoring tools
+      # to notify on predefined thresholds.
+
+    summary: "Setting up alerting using Grafana or other monitoring tools to notify on predefined thresholds."
+
+  - question: "Implement a version control system (e.g., Git) workflow for collaborative software development."
+    instructions: "Establishing a Git workflow with branches, pull requests, and code reviews to manage collaborative development."
+    answer: |
+      # Establish a Git workflow with branches, pull requests,
+      # and code reviews to manage collaborative development.
+
+    summary: "Establishing a Git workflow with branches, pull requests, and code reviews to manage collaborative development."

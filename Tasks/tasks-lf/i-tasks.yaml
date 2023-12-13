@@ -1,0 +1,137 @@
+
+questions:
+  - question: "Advanced Text Editing"
+    instructions: "Use a command-line text editor (e.g., vim or emacs) to create and edit a text file with multiple lines of content. Save and exit."
+    answer: "vim filename.txt"
+
+  - question: "Create and Extract Tarballs"
+    instructions: "Create a tarball (tar.gz) of the 'PrerequisiteTasks' directory. Extract its contents into a new directory."
+    answer: |
+      tar -czvf PrerequisiteTasksIntermediate.tar.gz PrerequisiteTasks
+      tar -xzvf PrerequisiteTasksIntermediate.tar.gz -C NewDirectory
+
+  - question: "User and Group Permissions"
+    instructions: "Create a new user group named 'TaskGroup.' Add your user and 'PracticeUser' to this group. Set the group ownership of 'PrerequisiteTasks' to 'TaskGroup.'"
+    answer: |
+      sudo addgroup TaskGroup
+      sudo usermod -aG TaskGroup <YourUsername>
+      sudo usermod -aG TaskGroup PracticeUser
+      sudo chown :TaskGroup PrerequisiteTasks
+
+  - question: "SSH Key Pair"
+    instructions: "Generate an SSH key pair using the `ssh-keygen` command. Add the public key to your user's authorized_keys file."
+    answer: |
+      ssh-keygen
+      cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+
+  - question: "Cron Jobs"
+    instructions: "Set up a cron job that runs every day at a specific time. The job can be a simple script that prints a message to a file."
+    answer: "crontab -e" # Add a line like: 0 0 * * * /path/to/script.sh
+
+  - question: "Install and Configure Nginx"
+    instructions: "Install Nginx using your package manager. Configure a virtual host to serve a custom HTML page. Test the Nginx configuration."
+    answer: "Install Nginx (`sudo apt install nginx`), configure a virtual host, and test the configuration (`sudo nginx -t`)."
+
+  - question: "Monitor System Performance"
+    instructions: "Use a tool like `sar` or `dstat` to monitor and display system performance metrics (CPU, memory, disk, etc.) in real-time."
+    answer: "sar" # or "dstat"
+
+  - question: "Filesystem Quotas"
+    instructions: "Set a disk quota for your user to limit the amount of disk space that can be used in your home directory."
+    answer: "edquota" # or "setquota"
+
+  - question: "TCP/IP Networking"
+    instructions: "Use `netstat` or `ss` to display information about network connections and listening ports on your machine."
+    answer: "netstat -tuln" # or "ss -tuln"
+
+  - question: "File Permissions with chmod"
+    instructions: "Use `chmod` to set specific permissions for 'MergedFile.txt' so that only the owner can read and write, while others have no permissions."
+    answer: "chmod 600 MergedFile.txt"
+
+  - question: "Find and Replace in Files"
+    instructions: "Use the `sed` command to find and replace a specific string in one of the text files in your home directory."
+    answer: "sed -i 's/old_string/new_string/' filename.txt"
+
+  - question: "User Environment Configuration"
+    instructions: "Edit the user-specific environment configuration file (e.g., '.bashrc' or '.bash_profile') to set a custom prompt."
+    answer: "Edit '~/.bashrc' or '~/.bash_profile'."
+
+  - question: "Create a Swap File"
+    instructions: "Create a swap file with a size of 1GB. Enable and activate the swap file on your system."
+    answer: |
+      sudo dd if=/dev/zero of=/swapfile bs=1M count=1024
+      sudo mkswap /swapfile
+      sudo swapon /swapfile
+
+  - question: "Mount and Unmount Filesystems"
+    instructions: "Create a new file (e.g., 'datafile.txt') in your home directory. Mount it to a new directory. Unmount the directory."
+    answer: |
+      mkdir ~/mountpoint
+      mount ~/datafile.txt ~/mountpoint
+      umount ~/mountpoint
+
+  - question: "Regular Expressions"
+    instructions: "Use `grep` with a regular expression to find lines in a text file that match a specific pattern."
+    answer: "grep 'pattern' filename.txt"
+
+  - question: "Manage System Services"
+    instructions: "Use `systemctl` to start, stop, and check the status of a system service (e.g., sshd or cron)."
+    answer: "sudo systemctl start|stop|status servicename"
+
+  - question: "Filesystem Check and Repair"
+    instructions: "Force a filesystem check on the root filesystem during the next reboot using the 'touch /forcefsck' command."
+    answer: "sudo touch /forcefsck"
+
+  - question: "Install Software from Source"
+    instructions: "Download the source code of a small open-source tool, compile it, and install it on your system."
+    answer: "Download source code, extract, './configure', 'make', 'sudo make install'"
+
+  - question: "Create a Custom Bash Script"
+    instructions: "Write a Bash script that takes two arguments (numbers) and performs a simple arithmetic operation on them."
+    answer: "Create a Bash script ('script.sh') with content like '#!/bin/bash; echo $(( $1 + $2 ))'"
+
+  - question: "Configure and Use Aliases"
+    instructions: "Edit your user's profile file to create a custom alias for a frequently used command."
+    answer: "Edit '~/.bashrc' and add an alias ('alias ll='ls -al'')."
+
+  - question: "System Log Rotation"
+    instructions: "Configure log rotation for a specific log file (e.g., /var/log/syslog) to keep a limited number of backups."
+    answer: "Edit logrotate configuration ('/etc/logrotate.conf' or '/etc/logrotate.d/customfile')."
+
+  - question: "Manage Software Repositories"
+    instructions: "Add a new software repository to your system. Update the package cache and install a package from the new repository."
+    answer: "Add a repository (e.g., PPA for Ubuntu), 'sudo apt update', 'sudo apt install packagename'"
+
+  - question: "Use the Screen Multiplexer"
+    instructions: "Install and use the 'screen' multiplexer to create and manage multiple terminal sessions."
+    answer: "Install 'screen' ('sudo apt install screen'), use 'screen' to create multiple sessions."
+
+  - question: "Monitor and Limit Resource Usage"
+    instructions: "Use 'ulimit' to set resource limits (e.g., maximum number of file descriptors) for your user."
+    answer: "Use 'ulimit' (e.g., 'ulimit -n 1000')."
+
+  - question: "Dynamic Host Configuration Protocol (DHCP)"
+    instructions: "Configure your system to obtain an IP address via DHCP. Check and display the assigned IP address."
+    answer: "Configure DHCP
+
+ ('sudo dhclient'), check IP address ('ip a' or 'ifconfig')."
+
+  - question: "Database Basics"
+    instructions: "Install a simple database system (e.g., SQLite) and create a new database with a table."
+    answer: "Install SQLite ('sudo apt install sqlite3'), create a database ('sqlite3 dbname.db'), create a table."
+
+  - question: "Secure Copy (SCP)"
+    instructions: "Use 'scp' to copy a file from your local machine to a remote server or vice versa."
+    answer: "Use 'scp localfile.txt user@remote:/path/to/destination/'."
+
+  - question: "Shell Script Debugging"
+    instructions: "Add debugging statements to the Bash script created in Task 19. Execute the script and observe the debug output."
+    answer: "Add 'set -x' to the Bash script created in Task 19."
+
+  - question: "Monitor File Changes"
+    instructions: "Use 'inotifywait' to monitor changes in a specific directory. Print a message when a new file is created or an existing file is modified."
+    answer: "Use 'inotifywait' ('inotifywait -m -e create,modify /path/to/directory')."
+
+  - question: "User Authentication Configuration"
+    instructions: "Configure the PAM (Pluggable Authentication Modules) system to require a strong password for user authentication."
+    answer: "Configure PAM ('/etc/security/pam_tally2.conf' or '/etc/pam.d/common-password')."

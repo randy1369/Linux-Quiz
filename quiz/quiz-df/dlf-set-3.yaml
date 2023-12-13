@@ -1,0 +1,161 @@
+
+questions:
+  - question: "What does the `passwd` command do in Linux?"
+    options:
+      - "A. Display system logs"
+      - "B. Change user password"
+      - "C. Manage network connections"
+      - "D. Create a new user"
+    answer: "B"
+
+  - question: "How can you list all files in a directory, including hidden files, in Linux?"
+    options:
+      - "A. `ls -a`"
+      - "B. `ls -h`"
+      - "C. `ls -l`"
+      - "D. `ls -s`"
+    answer: "A"
+
+  - question: "What is the purpose of the `chroot` command in Linux?"
+    options:
+      - "A. Change system hostname"
+      - "B. Change root password"
+      - "C. Change file permissions"
+      - "D. Change the root directory for a command"
+    answer: "D"
+
+  - question: "How do you find the total number of lines in a text file in Linux using the `wc` command?"
+    options:
+      - "A. `wc -w`"
+      - "B. `wc -l`"
+      - "C. `wc -c`"
+      - "D. `wc -m`"
+    answer: "B"
+
+  - question: "Which command is used to display the manual page for a command in Linux?"
+    options:
+      - "A. `man`"
+      - "B. `help`"
+      - "C. `info`"
+      - "D. `doc`"
+    answer: "A"
+
+  - question: "What does the `chmod +x` command do in Linux?"
+    options:
+      - "A. Change file ownership"
+      - "B. Add execute permission to a file"
+      - "C. Remove execute permission from a file"
+      - "D. Change user password"
+    answer: "B"
+
+  - question: "How can you find the process ID (PID) of a running process in Linux?"
+    options:
+      - "A. `ps -p process_name`"
+      - "B. `ps -f process_name`"
+      - "C. `pidof process_name`"
+      - "D. `pid process_name`"
+    answer: "C"
+
+  - question: "What is the purpose of the `kill` command in Linux?"
+    options:
+      - "A. Terminate a process"
+      - "B. Delete a file"
+      - "C. Change file permissions"
+      - "D. Remove a user"
+    answer: "A"
+
+  - question: "Which command is used to find and replace text in a file in Linux?"
+    options:
+      - "A. `grep`"
+      - "B. `sed`"
+      - "C. `awk`"
+      - "D. `replace`"
+    answer: "B"
+
+  - question: "How do you change the shell for a user in Linux using the `chsh` command?"
+    options:
+      - "A. `chsh -u new_shell`"
+      - "B. `chsh -s new_shell`"
+      - "C. `chsh -g new_shell`"
+      - "D. `chsh -p new_shell`"
+    answer: "B"
+
+  - question: "What does the `find` command do in Linux?"
+    options:
+      - "A. Find and replace text in files"
+      - "B. Search for files and directories"
+      - "C. Display system logs"
+      - "D. Configure network settings"
+    answer: "B"
+
+  - question: "How can you view the contents of a file without opening it in Linux?"
+    options:
+      - "A. `cat`"
+      - "B. `more`"
+      - "C. `less`"
+      - "D. `nano`"
+    answer: "C"
+
+  - question: "What does the `tee` command do in Linux?"
+    options:
+      - "A. Display system logs"
+      - "B. Split the output of a command into a file and the terminal"
+      - "C. Create a new user"
+      - "D. Archive and compress files"
+    answer: "B"
+
+  - question: "How can you create a new empty file in Linux?"
+    options:
+      - "A. `create file_name`"
+      - "B. `touch file_name`"
+      - "C. `new file_name`"
+      - "D. `empty file_name`"
+    answer: "B"
+
+  - question: "Which command is used to display the last lines of a file in Linux?"
+    options:
+      - "A. `head`"
+      - "B. `tail`"
+      - "C. `more`"
+      - "D. `cat`"
+    answer: "B"
+
+  - question: "What is the purpose of the `whoami` command in Linux?"
+    options:
+      - "A. Display system logs"
+      - "B. Show current user"
+      - "C. Change user password"
+      - "D. Create a new user"
+    answer: "B"
+
+  - question: "How do you create a backup of a directory in Linux using the `tar` command?"
+    options:
+      - "A. `tar -czvf backup.tar.gz directory`"
+      - "B. `tar -xvf backup.tar.gz directory`"
+      - "C. `tar -rvf backup.tar.gz directory`"
+      - "D. `tar -dvf backup.tar.gz directory`"
+    answer: "A"
+
+  - question: "What does the `cut` command do in Linux?"
+    options:
+      - "A. Edit a file"
+      - "B. Display system logs"
+      - "C. Extract and display columns from a text file"
+      - "D. Change file permissions"
+    answer: "C"
+
+  - question: "How can you list the contents of a directory sorted by modification time in Linux?"
+    options:
+      - "A. `ls -a`"
+      - "B. `ls -l`"
+      - "C. `ls -t`"
+      - "D. `ls -r`"
+    answer: "C"
+
+  - question: "Which command is used to display disk usage statistics in Linux?"
+    options:
+      - "A. `du`"
+      - "B. `df`"
+      - "C. `diskusage`"
+      - "D. `diskinfo`"
+    answer: "B"
